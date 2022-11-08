@@ -3,10 +3,10 @@ namespace Auth0\Tests\unit\Helpers\Tokens;
 
 use Auth0\SDK\Exception\InvalidTokenException;
 use Auth0\SDK\Helpers\Tokens\AsymmetricVerifier;
-use Lcobucci\JWT\Builder;
-use Lcobucci\JWT\Signer\Key;
-use Lcobucci\JWT\Signer\Rsa\Sha256 as RsSigner;
-use Lcobucci\JWT\Token;
+use Auth0\Lcobucci\JWT\Builder;
+use Auth0\Lcobucci\JWT\Signer\Key;
+use Auth0\Lcobucci\JWT\Signer\Rsa\Sha256 as RsSigner;
+use Auth0\Lcobucci\JWT\Token;
 use PHPUnit\Framework\TestCase;
 
 /**

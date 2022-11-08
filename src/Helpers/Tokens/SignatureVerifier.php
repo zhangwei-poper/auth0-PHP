@@ -5,8 +5,8 @@ namespace Auth0\SDK\Helpers\Tokens;
 
 use Auth0\SDK\Exception\InvalidTokenException;
 use InvalidArgumentException;
-use Lcobucci\JWT\Parser;
-use Lcobucci\JWT\Token;
+use Auth0\Lcobucci\JWT\Parser;
+use Auth0\Lcobucci\JWT\Token;
 
 /**
  * Class SignatureVerifier

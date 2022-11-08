@@ -3,8 +3,8 @@ declare(strict_types=1);
 
 namespace Auth0\SDK\Helpers\Tokens;
 
-use Lcobucci\JWT\Signer\Hmac\Sha256 as HsSigner;
-use Lcobucci\JWT\Token;
+use Auth0\Lcobucci\JWT\Signer\Hmac\Sha256 as HsSigner;
+use Auth0\Lcobucci\JWT\Token;
 
 /**
  * Class SymmetricVerifier

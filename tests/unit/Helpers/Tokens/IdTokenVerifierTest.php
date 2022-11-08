@@ -4,7 +4,7 @@ namespace Auth0\Tests\unit\Helpers\Tokens;
 use Auth0\SDK\Exception\InvalidTokenException;
 use Auth0\SDK\Helpers\Tokens\IdTokenVerifier;
 use Auth0\SDK\Helpers\Tokens\SymmetricVerifier;
-use Lcobucci\JWT\Builder;
+use Auth0\Lcobucci\JWT\Builder;
 use PHPUnit\Framework\TestCase;
 
 class IdTokenVerifierTest extends TestCase

@@ -3,10 +3,10 @@ namespace Auth0\Tests\unit\Helpers\Tokens;
 
 use Auth0\SDK\Exception\InvalidTokenException;
 use Auth0\SDK\Helpers\Tokens\SymmetricVerifier;
-use Lcobucci\JWT\Builder;
-use Lcobucci\JWT\Signer\Key;
-use Lcobucci\JWT\Signer\Hmac\Sha256 as HsSigner;
-use Lcobucci\JWT\Token;
+use Auth0\Lcobucci\JWT\Builder;
+use Auth0\Lcobucci\JWT\Signer\Key;
+use Auth0\Lcobucci\JWT\Signer\Hmac\Sha256 as HsSigner;
+use Auth0\Lcobucci\JWT\Token;
 use PHPUnit\Framework\TestCase;
 
 /**
